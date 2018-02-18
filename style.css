@@ -3,9 +3,7 @@ html, body {
 }
 
 
-li a: hover {
-  background-color: green;
-}
+
 
 
 nav {
@@ -30,6 +28,17 @@ nav ul li a {
   font-size:
   text-align: center;
   line-height: normal;
+  text-decoration: none;
   padding: 25px;
   color: black;
 }
+
+
+li a:hover {
+ background-color: #391c08;
+ color: white;
+}
+
+.active {
+  background-color: #391c08;
+  color: white;
