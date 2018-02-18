@@ -79,5 +79,6 @@ iframe{
 }
 .google{
   position: relative;
+  float: left;
   left: 33%;
 }
