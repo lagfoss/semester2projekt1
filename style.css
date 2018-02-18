@@ -38,12 +38,12 @@ nav ul li a {
   line-height: normal;
   text-decoration: none;
   padding: 25px;
-  color: black;
+  color: gray;
 }
 
 
 li a:hover {
- color: #62a528;
+ color: #black;
 }
 
 .active {
