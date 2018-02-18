@@ -27,7 +27,6 @@ width: 50%;
 list-style-type: none;
 margin: auto;
 padding: 0;
-position: fixed;
 }
 nav ul li {
   display: inline-block;
