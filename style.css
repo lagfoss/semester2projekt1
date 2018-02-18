@@ -11,7 +11,6 @@ height: 980px;
 
 a:link {
   color: white;
-
 }
 
 nav {
@@ -42,12 +41,6 @@ nav ul li a {
   color: #266ca5;
 }
 
-.kasse1{
-  display: block;
-  margin: auto;
-  text-align: left;
-  width: 50%
-}
 
 li a:hover {
  color: #85e539;
@@ -56,6 +49,14 @@ li a:hover {
 .active {
   color: #85e539;
 }
+
+.kasse1{
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 50%
+}
+
 footer {
       position: absolute;
       align-items: center;
