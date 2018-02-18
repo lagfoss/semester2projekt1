@@ -12,6 +12,7 @@ nav {
   text-align: center;
   position: static;
   top: 20px;
+
 }
 nav ul {
 display: block;
@@ -30,12 +31,12 @@ nav ul li a {
   line-height: normal;
   text-decoration: none;
   padding: 25px;
-  color: black;
+  color: gray;
 }
 
 
 li a:hover {
- color: black;
+ color: #000;
 }
 
 .active {
