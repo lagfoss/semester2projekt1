@@ -2,6 +2,12 @@ html, body {
 
 }
 
+
+li a: hover {
+  background-color: green;
+}
+
+
 nav {
   width: 100%;
   margin: auto;
