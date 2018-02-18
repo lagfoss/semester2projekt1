@@ -3,11 +3,9 @@ height: 780px;
     background: linear-gradient( #D3F2F4, #255915 80%, black 100%);
     background-repeat: no-repeat;
     text-align: center;
-
-
-
-
+    font-family: cursive;
 }
+
 
 nav {
   width: 100%;
