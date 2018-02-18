@@ -28,11 +28,27 @@
     </p>
     <br><br>
 
-    <h2>Find os på Google maps </h2>
+    <form
+      action="mailto:kontakt@artifactgamesolutions.com"
+      method="POST"
+      enctype="multipart/form-data"
+      name="EmailTestForm">
 
+    Your Name:<br>
+    <input type="text" size="54" name="VisitorName"><br><br>
+
+    Your Comment:<br>
+    <textarea name="VisitorComment" rows="4" cols="50">
+    </textarea><br><br>
+
+    <input type="submit" value="Send mail til Artifact">
+    </form>
+
+    <h2>Find os på Google maps </h2>
+<br>
 
 <div id="map" style="float:right;width:500px;height:500px;background:yellow::"></div>
-
+<br><br>
 <script>
 function myMap() {
   var mapCanvas = document.getElementById("map");
@@ -47,21 +63,7 @@ function myMap() {
 
       <h2>Follow us at:</h2>
       <br>
-      <form
-        action="mailto:kontakt@artifactgamesolutions.com"
-        method="POST"
-        enctype="multipart/form-data"
-        name="EmailTestForm">
 
-      Your Name:<br>
-      <input type="text" size="54" name="VisitorName"><br><br>
-
-      Your Comment:<br>
-      <textarea name="VisitorComment" rows="4" cols="50">
-      </textarea><br><br>
-
-      <input type="submit" value="Send mail til Artifact">
-      </form>
 
       <br>
     <footer>
