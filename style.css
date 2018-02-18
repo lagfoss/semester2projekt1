@@ -26,11 +26,10 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
-  text-decoration: none;
   font-family: cursive;
   font-size:
   text-align: center;
   line-height: normal;
   padding: 25px;
-  color:
+  color: black;
 }
