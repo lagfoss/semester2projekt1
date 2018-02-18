@@ -3,7 +3,7 @@ height: 980px;
     background: linear-gradient( #D3F2F4, #255915 80%, black 100%);
     background-repeat: no-repeat;
     text-align: center;
-    font-family: cursive;
+    font-family: comic sans-serif;
     color: black;
     position: relative;
 }
@@ -32,7 +32,7 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
-  font-family: cursive;
+  font-family: comic sans-serif;
   font-size:;
   text-align: center;
   line-height: normal;
@@ -54,8 +54,7 @@ li a:hover {
   display: block;
   margin: auto;
   text-align: left;
-  width: 500px;
-
+  width: 50%
 }
 
 footer {
