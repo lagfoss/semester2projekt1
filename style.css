@@ -6,6 +6,7 @@ height: 1380px;
     font-family: 'Abel',sans-serif;
     color: black;
     position: relative;
+    max-width: 100%;
 }
 
 h2{
@@ -65,12 +66,21 @@ li a:hover {
 .map {
   margin: auto;
 }
+.boxes{
+  display: flex;
+  margin-left: 50%;
+  text-align: left;
+  width: 100%;
+}
+.icons{
+  margin-left:50%;
+  width: 100%;
+}
 footer {
 
       position:absolute;
       bottom: 0;
       left: 0;
-      width: 100%;
       color: white;
 }
 .kasse2{
