@@ -61,7 +61,9 @@ li a:hover {
   text-align: left;
   width: 500px;
 }
-
+.map {
+  margin: auto;
+}
 footer {
 
       position:absolute;
