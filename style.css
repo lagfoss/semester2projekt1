@@ -41,6 +41,12 @@ nav ul li a {
   color: #266ca5;
 }
 
+.kasse1{
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 50%
+}
 
 li a:hover {
  color: #85e539;
