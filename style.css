@@ -1,7 +1,10 @@
-html body {
+html body  {
 height: 780px;
     background: linear-gradient( #D3F2F4, #255915 80%, black 100%);
     background-repeat: no-repeat;
+    text-align: center;
+
+
 
 
 }
@@ -33,12 +36,12 @@ nav ul li a {
   line-height: normal;
   text-decoration: none;
   padding: 25px;
-  color: gray;
+  color: #266ca5;
 }
 
 
 li a:hover {
- color: #000;
+ color: #85e539;
 }
 
 .active {
