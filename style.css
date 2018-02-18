@@ -3,14 +3,16 @@ height: 780px;
     background: linear-gradient( #D3F2F4, #255915 80%, black 100%);
     background-repeat: no-repeat;
     text-align: center;
-
-
-
-
+    font-family: cursive;
 }
+<<<<<<< HEAD
+
+
+=======
 a:link {
   color: white;
 }
+>>>>>>> 987124afe88959f1b0dc03dbdda11d58ec05f39b
 nav {
   width: 100%;
   margin: auto;
