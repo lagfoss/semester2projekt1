@@ -8,7 +8,9 @@
       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
   <body>
-
+    <header>
+      <img src="foto/logo.png" alt="Artifact">
+    </header>
     <nav>
     <ul>
       <li><a href="index.html">VR LIFE</a></li>
@@ -22,7 +24,7 @@
     <p> Artifact Game Solutions is located in Årslev, south of Odense,<br>
     You can contact us at
     <a id="mail" href="mailto:kontakt@artifactgamesolutions.com"> kontakt@artifactgamesolutions.com </a> <br>
-    com or by phone: (+45) 60 60 29 16.
+    or by phone: (+45) 60 60 29 16.
     </p>
     <br><br>
 
@@ -44,6 +46,24 @@ function myMap() {
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
       <h2>Follow us at:</h2>
+      <br>
+      <form
+        action="mailto:kontakt@artifactgamesolutions.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailTestForm">
+
+      Your Name:<br>
+      <input type="text" size="54" name="VisitorName"><br><br>
+
+      Your Comment:<br>
+      <textarea name="VisitorComment" rows="4" cols="50">
+      </textarea><br><br>
+
+      <input type="submit" value="Send mail til Artifact">
+      </form>
+
+      <br>
     <footer>
       <H3>You can contact us at:</H3>
       <p> E-Mail: <a href="mailto:kontakt@artifactgamesolutions.com"> kontakt@artifactgamesolutions.com </a> </P>
@@ -51,4 +71,4 @@ function myMap() {
     </footer>
 
   </body>
-</html>
+    </html>
