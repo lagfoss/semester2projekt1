@@ -100,3 +100,13 @@ iframe{
   align-items: center;
   justify-content: center;
 }
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.kontakt{
+  display: inline-block;
+}
+.social{
+  display: inline-block;
+}
