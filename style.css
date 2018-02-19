@@ -65,16 +65,6 @@ li a:hover {
 .map {
   margin: auto;
 }
-.boxes{
-  display: flex;
-  margin-left: 50%;
-  text-align: left;
-  width: 100%;
-}
-.icons{
-  margin-left:50%;
-  width: 100%;
-}
 
 iframe{
   border: none;
@@ -88,6 +78,8 @@ iframe{
 .footer{
   display: flex;
   justify-content: center;
+  position: sticky;
+  margin: auto;
   color: white;
   bottom: 0;
 }
