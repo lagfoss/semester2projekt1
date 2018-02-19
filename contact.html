@@ -9,9 +9,10 @@
   </head>
 
   <body>
-    <header>
-      <img src="foto/logo.png" alt="Artifact">
-    </header>
+    <article>
+      <header>
+        <img src="foto/logo.png" alt="Artifact">
+      </header>
     <nav>
     <ul>
       <li><a href="index.html">VR LIFE</a></li>
@@ -47,29 +48,36 @@
 
     <h2>Find os på Google maps </h2>
 <br>
-<div class="google">
+  <div class="google">
 
-<div id="map" style="width:500px;height:500px;background:yellow::"></div>
-<script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {
+  <div id="map" style="width:500px;height:500px;background:yellow::"></div>
+  <script>
+    function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
     center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-  };
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-</script>
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+  }
+  </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-</div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  </div>
 
-</main>
-
-    <footer>
-      <H3>You can contact us at:</H3>
-      <p> E-Mail: <a href="mailto:kontakt@artifactgamesolutions.com"> kontakt@artifactgamesolutions.com </a> </P>
-      <p> Phone: <a href="tel:+4560602916"> (+45) 60 60 29 16 </a> </P>
-    </footer>
-
+  </main>
+      <footer>
+        <div class="footer">
+          <div class="kontakt">
+            <H3>You can contact us at:</H3>
+            <p> E-Mail: <a href="mailto:kontakt@artifactgamesolutions.com"> kontakt@artifactgamesolutions.com </a> </P>
+            <p> Phone: <a href="tel:+4560602916"> (+45) 60 60 29 16 </a> </P>
+          </div>
+          <div class="social">
+            <H3>Follow os on our social networks:</H3>
+            <p> Facebook Instagram Snapchat Linkedin<p>
+          </div>
+        </div>
+      </footer>
+    </article>
   </body>
     </html>
