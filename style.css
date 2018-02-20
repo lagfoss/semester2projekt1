@@ -46,6 +46,10 @@ nav ul li a {
   color: #266ca5;
 }
 
+iframe {
+  width:100%
+}
+
 section {
   font-size: large;
 }
